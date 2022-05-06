@@ -7,7 +7,7 @@ class BlackJackTwo {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
-    Game game = new Game(1, 1, scan);
+    Game game = new Game(1, scan);
     game.setup();
     /*
     Deck deck = new Deck(scan);
